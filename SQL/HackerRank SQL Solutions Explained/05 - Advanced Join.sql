@@ -1,13 +1,19 @@
--- ##########
--- ### 5. 15 DAYS OF LEARNING SQL ###
+-- ================================================
+-- 5. 15 DAYS OF LEARNING SQL 
+-- ================================================ 
 
+-- ========================
 -- Problem
+-- ========================
+
 -- For each day of a contest (March 1, 2016 - March 15, 2016), we want to find:
 -- 1. The total number of unique hackers who made at least one submission each day.
 -- 2. The hacker with the most submissions on each day. If multiple hackers have the same number of submissions, we choose the one with the smallest hacker_id.
 -- Our results should be sorted by the date.
 
+-- ========================
 -- Plan
+-- ========================
 
 -- Step 1: Count Unique Hackers Who Submitted Each Day
 -- 1. Rank Each Hacker's Submissions by Date:
@@ -42,7 +48,9 @@
 -- Step 4: Sorting
 -- - Sort the final output by submission_date in ascending order to ensure the data is displayed chronologically.
 
+-- ========================
 -- Solution
+-- ========================
 
 SELECT participation_data.submission_date, participation_data.hacker_cnt, top_hacker.hacker_id, h.name
 FROM (
