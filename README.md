@@ -93,7 +93,7 @@ This repository is licensed under the [MIT License](LICENSE). Feel free to use, 
 ---
 
 ## Acknowledgments
-A huge thank you to the data science community and ChatGPT for their continuous efforts to share knowledge and resources. Let’s keep learning and growing together!
+A huge thank you to the data science community and ChatGPT the real G! for the continuous efforts to share knowledge and resources. Let’s keep learning and growing together!
 
 ---
 ## P.S.: Still under construction
